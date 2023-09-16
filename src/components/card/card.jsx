@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Bar from '../sidebar/bar';
 import { FaBook, } from 'react-icons/fa';
-
+import { ToastContainer, toast } from 'react-toastify';
 
 const Card = () => {
 
