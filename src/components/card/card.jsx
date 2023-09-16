@@ -2,13 +2,13 @@ import React, { useEffect, useState } from 'react';
 import Bar from '../sidebar/bar';
 import { FaBook, } from 'react-icons/fa';
 import { ToastContainer, toast } from 'react-toastify';
-
+import 'react-toastify/dist/ReactToastify.css';
 const Card = () => {
 
   const [allBlogs, setAllblogs] = useState([])
   const [selectedBlogs, setSelectedBlogs] = useState([])
   const [remainingHour, setRemainingHour] = useState(0)
-  
+  const [totalHour, setTotalHour] = useState(0)
   
   //console.log(totalPrice);
   useEffect(() => {
