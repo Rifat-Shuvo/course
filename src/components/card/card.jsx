@@ -3,14 +3,15 @@ import Bar from '../sidebar/bar';
 import { FaBook, } from 'react-icons/fa';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+
 const Card = () => {
 
   const [allBlogs, setAllblogs] = useState([])
   const [selectedBlogs, setSelectedBlogs] = useState([])
   const [remainingHour, setRemainingHour] = useState(0)
   const [totalHour, setTotalHour] = useState(0)
-  
-  //console.log(totalPrice);
+  const [totalPrice, setTotalPrice] = useState(0)
+
   useEffect(() => {
     fetch('./data.json')
       .then(res => res.json())
@@ -44,16 +45,10 @@ const Card = () => {
       setSelectedBlogs([...selectedBlogs, blog]);
       }
 
-      // setRemainingHour(totalRemainHour)
-      // setTotalHour(creditHour)
-      // setTotalPrice(price)
-      // setSelectedBlogs([...selectedBlogs, blog]);
     }
 
   }
-  // console.log(selectedBlogs);
-
-  //console.log(allBlogs);
+  
   return (
     <>
       <div className='flex justify-between mt-6'>
