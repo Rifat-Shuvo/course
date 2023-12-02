@@ -3,7 +3,11 @@
 *** Show the title of the clickable card in the sidebar card
 *** If the total remain hour & credit hour limit is break then a toat shown.
     
-    >>>Interacted UI Which ensure clinet better feels
+****Interacted UI Which ensure clinet better feels
+
+# Technology I used: html, tailwind, daisyui, javascripst, React.
+
+# livesite link: https://versed-rail.surge.sh/
 
  # Discussing about the Use State 
 
