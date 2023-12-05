@@ -1,4 +1,4 @@
-# 3 project fetures of this projects:
+# 3 project fetures of this projects: (a-7)
 *** All Card of the sites Are Clickable.
 
 *** Show the title of the clickable card in the sidebar card
